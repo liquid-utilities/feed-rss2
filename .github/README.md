@@ -123,7 +123,23 @@ time_to_live: 1800  # Number of seconds till update is recommended
 > Note, `excerpt` requires `site.show_excerpts` to be _non-`false`_ and __not__ setting a `description` for those pages using `excerpt`s
 
 
-This layout may utilize the GitHub MetaData plugin, please enable within the following configuration files to avoid build errors popping because of code from this repository...
+Each collection directory should have a `feed.rss` file sorta like...
+
+
+```YAML
+---
+layout: modules/feed-rss2/feed-rss2
+title: Example Collection
+collection_name: example-collection
+collection_home: /example-collection/
+date: 2019-07-23 21:12:13 -0700
+content_type: xhtml
+permalink: /:collection/:name:output_ext
+---
+```
+
+
+This layout utilizes the GitHub MetaData plugin, please enable within the following configuration files to avoid build errors popping because of code from this repository...
 
 
 **`_config.yml`**
