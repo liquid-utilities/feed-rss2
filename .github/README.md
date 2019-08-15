@@ -111,9 +111,9 @@ title: Title of Page
 date: 2019-04-17 11:12:11 -0300
 #date_updated:  # Optional and formatted like `date` above
 description: A description of page content
-#excerpt: Or a snipit about this page
+#excerpt: Or a snippet about this page
 ## Following is optional and in this example case would allow
-##  for embeding CSV data within `content` tags, defaults to `html`
+##  for embedding CSV data within `content` tags, defaults to `html`
 #content_type: 'text/delimited'
 time_to_live: 1800  # Number of seconds till update is recommended
 ---
