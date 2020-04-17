@@ -78,7 +78,7 @@ _fork_url_https="https://github.com/${_account_name}/feed-rss2.git"
 
 1. Clone your fork via _`_fork_url_git`_ value, then setup alternate _`remote`_ pointing to the value of _`_origin_url_git`_ for future updates
 
-2. Enter the root directory for this repository, `fetch` and `checout` the `gh-pages` branch
+2. Enter the root directory for this repository, `fetch` and `checkout` the `gh-pages` branch
 
 3. Point submodule URL to _`_fork_url_https`_ value, then _`sync`_ and _`update`_ changes
 
