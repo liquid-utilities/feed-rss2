@@ -102,6 +102,9 @@ url: "http://example.com"
 ```
 
 
+> Note, a full example [`_config.yml`][feed_rss2__gh_pages__config_yml] file is available within the [`gh-pages`][feed_rss2__gh_pages] branch of this repository.
+
+
 Each collection `page` should have FrontMatter definitions similar to...
 
 
@@ -121,6 +124,8 @@ time_to_live: 1800  # Number of seconds till update is recommended
 
 
 > Note, `excerpt` requires `site.show_excerpts` to be _non-`false`_ and __not__ setting a `description` for those pages using `excerpt`s
+>
+> An example page [raw source][feed_rss2__gh_pages__raw_source__something_about_something] is available within the [`gh-pages`][feed_rss2__gh_pages] branch of this repository.
 
 
 Each collection directory should have a `feed.rss` file sorta like...
@@ -137,6 +142,9 @@ content_type: xhtml
 permalink: /:collection/:name:output_ext
 ---
 ```
+
+
+> Note, [RSS feed example][feed_rss2__gh_pages__rss_feed] file is available within the [`gh-pages`][feed_rss2__gh_pages] branch of this repository.
 
 
 This layout utilizes the GitHub MetaData plugin, please enable within the following configuration files to avoid build errors popping because of code from this repository...
@@ -264,6 +272,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   https://github.com/liquid-utilities/feed-rss2/tree/gh-pages
   "Source code examples hosted thanks to GitHub Pages!"
 
+[feed_rss2__gh_pages__config_yml]:
+  https://github.com/liquid-utilities/feed-rss2/blob/gh-pages/_config.yml
+  "Example configuration file"
+
+[feed_rss2__gh_pages__raw_source__something_about_something]:
+  https://raw.githubusercontent.com/liquid-utilities/feed-rss2/gh-pages/documentation/_example-collection/something-about-something.markdown
+  "Raw source code of example post"
+
+[feed_rss2__gh_pages__rss_feed]:
+  https://github.com/liquid-utilities/feed-rss2/blob/gh-pages/documentation/_example-collection/example-collection.rss
+  "Example RSS feed configuration FrontMatter"
 
 
 [badge__demo__feed_rss2]:
